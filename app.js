@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         InjectSelectScript
-// @version      0.1
+// @version      0.2
 // @description  Insert a predefined select element with querys in the DOM - VanillaJS
 // @author       Alan Martini
 // @match        alanmartini.com/*
@@ -11,14 +11,13 @@
     'use strict';
 
     // selector . to classes | selector # to id's
-    let textInput = document.querySelectorAll('#name')[0];
+    let textInput = document.querySelectorAll('#mySqlInputId')[0];
 
-    //Execution of script 'InjectSelectScript' failed! Cannot read property 'insertBefore' of undefined
     let querySelector = 'inject-select';
     //query list
     let queryList = {
         "Select your query" : "",
-        "Query to select clients" : "SELECT * FROM customer WHERE name LIKE '%%'",
+        "Query to select clients" : "SELECT * FROM customer WHERE name LIKE '%bruce dickinson%'",
         "Query to get updates" : "SELECT * FROM customer WHERE LAST_UPDATE_DATE > SYSDATE-15",
         "Query C" : "Text C"
     };

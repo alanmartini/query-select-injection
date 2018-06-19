@@ -12,16 +12,21 @@ This script was made with the premisses of a short and clean code, without requi
 
 
 
-# Use
+# Configure
 
-## Configure
+#### Import the script into Tampermonkey 
 
-Import the script into Tampermonkey 
+> Utilities > URL > Import > ```https://raw.githubusercontent.com/alanmartini/query-select-injection/master/app.js```
 
 
-Change the website trigger filter to your page: 
+#### Change the website trigger filter to your page: 
 > // @match        alanmartini.com/*
 
+#### Set element selector
+> `#mySqlInputId` The ID or CLASS of the input that will receive the query
+    
+#### Query list
+> increment the object `queryList` with the desired queries
 
 ## Contributing
 1. Fork it!
@@ -30,6 +35,20 @@ Change the website trigger filter to your page:
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request
 
+### known issues
+
+> Execution of script 'InjectSelectScript' failed! Cannot read property 'insertBefore' of undefined
+
+If you got this on your console, you have an error with your selector ``textInput``, perhaps remove the ``[0]`` ¿?  
+
+## Links and References
+https://developer.mozilla.org/en-US/docs/Web/API
+
+https://gist.github.com/joyrexus/7307312
+
+https://tampermonkey.net/documentation.php
+
+http://youmightnotneedjquery.com/
 
 
 # License
