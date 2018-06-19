@@ -35,7 +35,7 @@ This script was made with the premisses of a short and clean code, without requi
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request
 
-### known issues
+## known issues
 
 > Execution of script 'InjectSelectScript' failed! Cannot read property 'insertBefore' of undefined
 
@@ -49,6 +49,12 @@ https://gist.github.com/joyrexus/7307312
 https://tampermonkey.net/documentation.php
 
 http://youmightnotneedjquery.com/
+
+
+# Misc
+This script was contemplated while listening to [This is Iron Maiden by Spotify](https://open.spotify.com/user/spotify/playlist/37i9dQZF1DXagb3XZSnOQ8?si=wVkFDBZZSja04Y-6Uu2qHA)
+
+Beers consumed: 0 (outrageous I know, I'll do better next time)
 
 
 # License
