@@ -31,6 +31,14 @@ On Installed UserScripts, click on ``Edit``
 #### Query list
 > Increment the object `queryList` with the desired queries
 
+ - Without the script: 
+ 
+ ![alt text](https://image.ibb.co/hOJmH8/without_plugin.jpg "Without the script")
+ 
+ - With the script: 
+  
+ ![alt text](https://image.ibb.co/nQ0cPo/with_plugin.jpg "With the script")
+
 ## Contributing
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
