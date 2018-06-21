@@ -16,8 +16,11 @@ This script was made with the premisses of a short and clean code, without requi
 
 #### Import the script into Tampermonkey 
 
+Go to the App Panel
+
 > Utilities > URL > Import > ```https://raw.githubusercontent.com/alanmartini/query-select-injection/master/app.js```
 
+On Installed UserScripts, click on ``Edit``
 
 #### Change the website trigger filter to your page: 
 > // @match        alanmartini.com/*
@@ -26,7 +29,7 @@ This script was made with the premisses of a short and clean code, without requi
 > `#mySqlInputId` The ID or CLASS of the input that will receive the query
     
 #### Query list
-> increment the object `queryList` with the desired queries
+> Increment the object `queryList` with the desired queries
 
 ## Contributing
 1. Fork it!
